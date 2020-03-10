@@ -19,5 +19,17 @@ public class Lists {
 
         String jerry = groceryLine.get(0);
         System.out.println(jerry);
+
+        int amberIndex = groceryLine.indexOf("lmber");
+//        negative if does not exist
+        System.out.println(amberIndex);
+
+        System.out.println(groceryLine.size());
+
+        for(String name : groceryLine ) {
+            System.out.println(name);
+        }
+
+
     }
 }
