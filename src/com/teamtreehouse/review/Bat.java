@@ -6,6 +6,7 @@ public class Bat {
             System.out.println(sleepIn(true, false));
             System.out.println(monkeyTrouble(true, false));
             System.out.println(missingChar("Kitten", 3));
+            System.out.println(diff21( 3));
 
         }
         public static boolean sleepIn(boolean weekday, boolean vacation) {
