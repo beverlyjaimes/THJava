@@ -18,5 +18,12 @@ public class Person {
         System.out.println("Hello " + name);
     }
 
+    public static void main(String[] args) {
+        Person person1 = new Person("James");
+        System.out.println(person1.getName());
+        person1.setName("James");
+        person1.sayHello();
+    }
+
 }
 
