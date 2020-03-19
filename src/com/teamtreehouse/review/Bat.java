@@ -3,11 +3,23 @@ package com.teamtreehouse.review;
 public class Bat {
 
         public static void main(String[] args) {
-            System.out.println(sleepIn(true, false));
-            System.out.println(monkeyTrouble(true, false));
-            System.out.println(missingChar("Kitten", 3));
-            System.out.println(diff21( 3));
-            System.out.println(stringTimes("Bev", 3));
+//            System.out.println(sleepIn(true, false));
+//            System.out.println(monkeyTrouble(true, false));
+//            System.out.println(missingChar("Kitten", 3));
+//            System.out.println(diff21( 3));
+//            System.out.println(stringTimes("Bev", 3));
+
+             double dblTotal = 2.3;
+             int intValue = 32;
+             String stringVal = "This is string";
+
+            System.out.printf("Total is: $%,.2f%n", dblTotal);
+            System.out.printf("Total: %-10.2f: ", dblTotal);
+            System.out.printf("% 4d", intValue);
+            System.out.printf("%20.10s\n", stringVal);
+            String s = "Hello World";
+            System.out.printf("The String object %s is at hash code %h%n", s, s);
+
         }
         public static boolean sleepIn(boolean weekday, boolean vacation) {
             return (vacation) || (!weekday && !vacation);
