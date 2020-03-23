@@ -8,7 +8,9 @@ public class Bat {
 //            System.out.println(missingChar("Kitten", 3));
 //            System.out.println(diff21( 3));
 //            System.out.println(stringTimes("Bev", 3));
-        System.out.println(close10(10 , 3));
+//        System.out.println(close10(10 , 3));
+        System.out.println(close10(1,9));
+        System.out.println(close10(4,6));
 
 //        double dblTotal = 2.3;
 //        int intValue = 32;
@@ -64,9 +66,15 @@ public class Bat {
 
     public static int close10(int a, int b) {
         int aDist = Math.abs(a - 10);
-        int bDist = Math.abs(a - 10);
-        System.out.println(aDist);
-        System.out.println(bDist);
-        return aDist;
+        int bDist = Math.abs(b - 10);
+        if (aDist < bDist) {
+            return a;
+        }
+        if (bDist < aDist) {
+            return b;
+        }
+        return 0;
     }
 }
+
+
