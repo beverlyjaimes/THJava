@@ -75,6 +75,11 @@ public class Bat {
         }
         return 0;
     }
+
+    public static String helloName(String name) {
+        return "Hello " + name + "!";
+    }
+
 }
 
 
