@@ -85,8 +85,9 @@ public class Bat {
 
     public static String makeOutWord(String out, String word) {
 
-        System.out.println(out.substring(0,out.length()/2));
-        return word;
+//        System.out.println(out.substring(0,out.length()/2));
+        String half = out.substring(0,out.length()/2);
+        return half + word + half;
     }
 
 }
