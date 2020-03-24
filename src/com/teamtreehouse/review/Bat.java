@@ -11,7 +11,8 @@ public class Bat {
 //        System.out.println(close10(10 , 3));
 //        System.out.println(close10(1,9));
 ////        System.out.println(close10(4,6));
-        System.out.println(helloName("Bev"));
+//        System.out.println(helloName("Bev"));
+        System.out.println(makeOutWord("....","dog"));
 
 
 //        double dblTotal = 2.3;
@@ -80,6 +81,12 @@ public class Bat {
 
     public static String helloName(String name) {
         return "Hello " + name + "!";
+    }
+
+    public static String makeOutWord(String out, String word) {
+
+        System.out.println(out.length()/2);
+        return word;
     }
 
 }
