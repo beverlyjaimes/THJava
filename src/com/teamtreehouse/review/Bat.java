@@ -9,8 +9,10 @@ public class Bat {
 //            System.out.println(diff21( 3));
 //            System.out.println(stringTimes("Bev", 3));
 //        System.out.println(close10(10 , 3));
-        System.out.println(close10(1,9));
-        System.out.println(close10(4,6));
+//        System.out.println(close10(1,9));
+////        System.out.println(close10(4,6));
+        System.out.println(helloName("Bev"));
+
 
 //        double dblTotal = 2.3;
 //        int intValue = 32;
