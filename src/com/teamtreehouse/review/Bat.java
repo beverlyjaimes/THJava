@@ -26,6 +26,7 @@ public class Bat {
 //        String s = "Hello World";
 //        System.out.printf("The String object %s is at hash code %h%n", s, s);
         System.out.println(icyHot(100, 30));
+        System.out.println(lastDigit(10,33));
 
     }
 
@@ -101,7 +102,7 @@ public class Bat {
         }
     }
 
-    public boolean lastDigit(int a, int b) {
+    public static boolean lastDigit(int a, int b) {
         return(a % 10 == b % 10);
     }
 
