@@ -12,7 +12,7 @@ public class Bat {
 //        System.out.println(close10(1,9));
 ////        System.out.println(close10(4,6));
 //        System.out.println(helloName("Bev"));
-        System.out.println(makeOutWord("<<<<","dog"));
+//        System.out.println(makeOutWord("<<<<","dog"));
 
 
 //        double dblTotal = 2.3;
@@ -25,6 +25,7 @@ public class Bat {
 //        System.out.printf("%20.10s\n", stringVal);
 //        String s = "Hello World";
 //        System.out.printf("The String object %s is at hash code %h%n", s, s);
+        System.out.println();
 
     }
 
@@ -92,7 +93,7 @@ public class Bat {
         return half + word + rev;
     }
 
-    public boolean icyHot(int temp1, int temp2) {
+    public static boolean icyHot(int temp1, int temp2) {
         if((temp1 < 0 && temp2 > 100) || (temp1 > 0 && temp2 < 100)){
             return true;
         } else {
