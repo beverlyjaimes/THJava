@@ -12,7 +12,7 @@ public class Bat {
 //        System.out.println(close10(1,9));
 ////        System.out.println(close10(4,6));
 //        System.out.println(helloName("Bev"));
-        System.out.println(makeOutWord("....","dog"));
+        System.out.println(makeOutWord("<<<<","dog"));
 
 
 //        double dblTotal = 2.3;
@@ -87,7 +87,17 @@ public class Bat {
 
 //        System.out.println(out.substring(0,out.length()/2));
         String half = out.substring(0,out.length()/2);
-        return half + word + half;
+        StringBuilder input1 = new StringBuilder();
+        StringBuilder rev = input1.reverse();
+        return half + word + rev;
+    }
+
+    public boolean icyHot(int temp1, int temp2) {
+        if((temp1 < 0 && temp2 > 100) || (temp1 > 0 && temp2 < 100)){
+            return true;
+        } else {
+            return false;
+        }
     }
 
 }
