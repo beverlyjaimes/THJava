@@ -25,7 +25,7 @@ public class Bat {
 //        System.out.printf("%20.10s\n", stringVal);
 //        String s = "Hello World";
 //        System.out.printf("The String object %s is at hash code %h%n", s, s);
-        System.out.println();
+        System.out.println(icyHot(100, 30));
 
     }
 
