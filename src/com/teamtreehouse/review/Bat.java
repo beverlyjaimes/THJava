@@ -27,6 +27,7 @@ public class Bat {
 //        System.out.printf("The String object %s is at hash code %h%n", s, s);
         System.out.println(icyHot(100, 30));
         System.out.println(lastDigit(10,33));
+        System.out.println(parrotTrouble(true, 5));
 
     }
 
